@@ -1,10 +1,8 @@
-<<<<<<< HEAD
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
-=======
 @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300;400;700&display=swap');
 
 *{
@@ -68,4 +66,3 @@
   padding-top: 20px;
   font-size: 25px;
 }
->>>>>>> ccf30eee045c2a26bf564960b976777bfad6664f

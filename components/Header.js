@@ -30,11 +30,7 @@ const Header = () => {
 
   const renderButton = () => {
     if (walletConnected) {
-<<<<<<< HEAD
       return <div>Header</div>
-=======
-      return <div></div>
->>>>>>> ccf30eee045c2a26bf564960b976777bfad6664f
     } else {
       return <button onClick={connectWallet}>Connect Wallet</button>
     }
