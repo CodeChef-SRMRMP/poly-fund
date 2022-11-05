@@ -1,6 +1,8 @@
 import Web3Modal from "web3modal"
 import { providers, Contract } from "ethers"
 import { useRef, useEffect, useState } from "react"
+import Landing from "./Landing"
+
 
 const Header = () => {
   const [walletConnected, setWalletConnected] = useState(false)
@@ -28,7 +30,11 @@ const Header = () => {
 
   const renderButton = () => {
     if (walletConnected) {
+<<<<<<< HEAD
       return <div>Header</div>
+=======
+      return <div></div>
+>>>>>>> ccf30eee045c2a26bf564960b976777bfad6664f
     } else {
       return <button onClick={connectWallet}>Connect Wallet</button>
     }
@@ -53,8 +59,24 @@ const Header = () => {
       connectWallet()
     }
   }, [walletConnected])
+   
 
-  return <div>{renderButton()}</div>
+  return (
+    
+    <div className='navbar'>
+     <div className="header">
+      <h1 className="head">Polyfund</h1>
+      <div className='button'>
+        <button className='btn'>Raise Funds</button>
+        <button className='btn'>Donate funds</button>
+        <button className='btn'>Redeem tokens </button>
+        <button className='btn'>Connect Wallet</button>
+      </div>
+    </div>
+    {renderButton()}
+
+  </div>
+  )
 }
 
 export default Header
