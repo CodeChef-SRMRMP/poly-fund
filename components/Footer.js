@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { GoLocation } from "react-icons/go";
 import Image from "next/image";
     import React from "react";
@@ -11,11 +10,7 @@ import Image from "next/image";
       AiOutlineTwitter,
     } from "react-icons/ai";
     
-=======
-const Footer = () => {
-  return <div></div>
-}
->>>>>>> ccf30eee045c2a26bf564960b976777bfad6664f
+
 
 export const Footer = () => {
       return (

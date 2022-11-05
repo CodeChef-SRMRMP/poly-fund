@@ -8,14 +8,9 @@ function MyApp({ Component, pageProps }) {
     <div className="flex flex-col ">
       <Header />
       <Component {...pageProps} />
-<<<<<<< HEAD
-      {/* `<Footer />` */}
-    </div>
-=======
       <Landing />
       <Footer />
-    </>
->>>>>>> ccf30eee045c2a26bf564960b976777bfad6664f
+    </div>
   )
 }
 
