@@ -15,6 +15,7 @@ const Raise = () => {
         </div>
         <div class="mb-1">
           <label class="block text-white text-sm font-bold mb-2" for="password">
+          <label for="countries">Select an option</label>
             Location
           </label>
           <input class="shadow appearance-none border rounded w-full py-2 px-3 text-white mb-3 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="Choose Location" />
