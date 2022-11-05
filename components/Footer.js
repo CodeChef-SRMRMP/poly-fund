@@ -13,8 +13,8 @@ import Image from "next/image";
 
 export const Footer = () => {
       return (
-        <div className="bg-black text-white pt-10">
-          <div className="text-white w-screen bg-black flex flex-col space-y-5 lg:space-y-0 text-center lg:text-left lg:flex-row justify-evenly items-center lg:items-stretch">
+        <div className="bg-[#1976d2] text-white pt-10">
+          <div className="text-white w-screen  flex flex-col space-y-5 lg:space-y-0 text-center lg:text-left lg:flex-row justify-evenly items-center lg:items-stretch">
             <div className="space-y-2">
               <h1 className="text-xl font-bold">CONTACT US</h1>
               <div className="flex space-x-2">
