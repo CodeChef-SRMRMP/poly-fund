@@ -28,7 +28,7 @@ const Header = () => {
 
   const renderButton = () => {
     if (walletConnected) {
-      return <div>Yo</div>
+      return <div>Header</div>
     } else {
       return <button onClick={connectWallet}>Connect Wallet</button>
     }

@@ -4,11 +4,11 @@ import Footer from "../components/Footer"
 
 function MyApp({ Component, pageProps }) {
   return (
-    <>
+    <div className="flex flex-col ">
       <Header />
       <Component {...pageProps} />
-      <Footer />
-    </>
+      {/* `<Footer />` */}
+    </div>
   )
 }
 
